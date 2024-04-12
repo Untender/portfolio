@@ -8,4 +8,39 @@ html{
 /* --------- End of Default CSS --------- */
 
 /* --------- Main Body Container --------- */
+.container
+{
+    
+}
+/* --------- Grid 30-70 --------- */
+.grid30-70
+{
+    
+    color: white;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: 1em;
+}
 
+.grid30-70 > div
+{
+    background-color: red;
+    margin: 1em;
+    padding: 1em;
+}
+
+.gridfractions
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 4fr;
+    grid-auto-rows: minmax(70, auto);;
+    grid-gap: 1em;
+    color: white;
+}
+
+.gridfractions > div
+{
+    background-color: blue;
+    border: black 5px solid;
+    padding: 1em;
+}
