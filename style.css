@@ -1,46 +1,19 @@
 /* --------- Default CSS --------- */
 html{
-    background-color: blueviolet;
+    background-color: rgb(34, 29, 83);
     margin: 0;
     padding: 0;
 }
-
 /* --------- End of Default CSS --------- */
 
-/* --------- Main Body Container --------- */
-.container
-{
-    
-}
-/* --------- Grid 30-70 --------- */
-.grid30-70
-{
-    
-    color: white;
-    display: grid;
-    grid-template-columns: 30% 70%;
-    grid-gap: 1em;
-}
+/* --------- Microfiche Overlay, needs a little grain --------- */
 
-.grid30-70 > div
-{
-    background-color: red;
-    margin: 1em;
-    padding: 1em;
-}
 
-.gridfractions
-{
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr 4fr;
-    grid-auto-rows: minmax(70, auto);;
-    grid-gap: 1em;
-    color: white;
-}
+/* --------- Text to fade in on selecting box --------- */
 
-.gridfractions > div
-{
-    background-color: blue;
-    border: black 5px solid;
-    padding: 1em;
-}
+/* --------- Navigation bar --------- */
+
+/* --------- Grid that contains Icons --------- */
+
+/* ---------  --------- */
+
